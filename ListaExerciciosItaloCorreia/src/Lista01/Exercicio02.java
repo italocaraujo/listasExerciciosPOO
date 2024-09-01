@@ -11,11 +11,11 @@ public class Exercicio02 {
         System.out.println("Digite a cotação do dólar: ");
         cotacaoDolar = scanner.nextDouble();
 
-        System.out.println("Digite o valor em dólares: ");
+        System.out.println("Digite o valor do dólar: ");
         valorDolar = scanner.nextDouble();
 
-        valorReal = valorDolar * cotacaoDolar;
+        valorReal = cotacaoDolar * valorDolar;
 
-        System.out.println("O valor em reais é " + valorReal);
+        System.out.printf("O valor em real é " + "%.2f", valorReal);
     }
 }

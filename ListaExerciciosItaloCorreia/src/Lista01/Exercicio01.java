@@ -20,7 +20,8 @@ public class Exercicio01 {
         // Cálculo
         estoqueMedio = (quantidadeMinima + quantidadeMaxima) / 2.0;
 
-        // Resposta
+        // Resultado
         System.out.println("O estoque médio é " + estoqueMedio);
     }
 }
+
