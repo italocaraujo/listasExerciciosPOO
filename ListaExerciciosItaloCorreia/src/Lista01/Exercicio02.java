@@ -17,5 +17,7 @@ public class Exercicio02 {
         valorReal = cotacaoDolar * valorDolar;
 
         System.out.printf("O valor em real é " + "%.2f", valorReal);
+
+        scanner.close();
     }
 }

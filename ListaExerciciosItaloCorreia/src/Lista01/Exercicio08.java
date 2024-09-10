@@ -21,5 +21,7 @@ public class Exercicio08 {
 
         // Resultado
         System.out.println("O volume da lata é " + volume + "cm³");
+
+        scanner.close();
     }
 }

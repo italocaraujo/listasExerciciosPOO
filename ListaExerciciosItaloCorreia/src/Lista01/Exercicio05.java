@@ -28,5 +28,7 @@ public class Exercicio05 {
         System.out.println("Tempo gasto: " + tempo + " horas");
         System.out.println("Distância percorrida: " + distancia + " Km");
         System.out.println("Litros de combustível utilizados: " + String.format("%.2f", litrosUsados) + " litros");
+
+        scanner.close();
     }
 }

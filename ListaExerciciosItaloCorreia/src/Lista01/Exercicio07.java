@@ -18,5 +18,7 @@ public class Exercicio07 {
 
         // Resultado
         System.out.println("A temperatura em Celsius é de " + celsius + "°C");
+
+        scanner.close();
     }
 }

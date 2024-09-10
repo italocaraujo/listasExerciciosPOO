@@ -19,5 +19,6 @@ public class Exercicio06 {
         // Resultado
         System.out.println("A temperatura em Fahrenheit é de " + fahrenheit + "°F");
 
+        scanner.close();
     }
 }

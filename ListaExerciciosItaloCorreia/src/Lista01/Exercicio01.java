@@ -22,6 +22,8 @@ public class Exercicio01 {
 
         // Resultado
         System.out.println("O estoque médio é " + estoqueMedio);
+
+        scanner.close();
     }
 }
 

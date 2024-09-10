@@ -47,6 +47,5 @@ public class Exercicio04 {
 
         // Fechando o scanner
         scanner.close();
-
     }
 }
