@@ -26,6 +26,9 @@ public class Exercicio20 {
         // Resultado
         System.out.println("\nMenor valor multiplicado pelo maior: " + multiplicacao);
         System.out.println("Maior valor dividido pelo menor: " + divisao);
+
+        // Fechar o scanner
+        scanner.close();
     }
 
     /*
