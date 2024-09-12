@@ -39,7 +39,5 @@ public class Exercicio03 {
         System.out.println("Código da peça: " + codigoPeca);
         System.out.println("Valor total da venda: R$ " + String.format("%.2f", valorTotalVenda));
         System.out.println("Comissão do vendedor: R$ " + String.format("%.2f", comissao));
-
-        scanner.close();
     }
 }

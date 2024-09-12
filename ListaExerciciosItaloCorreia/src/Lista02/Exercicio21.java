@@ -30,6 +30,7 @@ public class Exercicio21 {
 
         } while (continuar.equalsIgnoreCase("s")); {  // Continua o loop enquanto a resposta for "s"
             System.out.println("Programa encerrado.");
+
             scanner.close(); // Fecha o scanner para liberar recursos
         }
     }

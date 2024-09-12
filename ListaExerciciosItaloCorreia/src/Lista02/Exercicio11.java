@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Exercicio11 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Comando para habilitar a leitura de dados
+        Scanner input = new Scanner(System.in);
 
         // Variáveis
         int a, b, trocaValores;
 
         // Solicitação e leitura de dados
         System.out.println("Digite o valor de \"a\": ");
-        a = scanner.nextInt();
+        a = input.nextInt();
 
         System.out.println("Digite o valor de \"b\": ");
-        b = scanner.nextInt();
+        b = input.nextInt();
 
         // Trocando os valores de "a" e "b"
 
@@ -32,7 +32,5 @@ public class Exercicio11 {
         System.out.println("O valor de \"a\" agora é " + a);
         System.out.println("o valor de \"b\" agora é " + b);
 
-        // Fechar o scanner
-        scanner.close();
     }
 }

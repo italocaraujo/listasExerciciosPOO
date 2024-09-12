@@ -23,6 +23,5 @@ public class Exercicio09 {
 
         System.out.println("O total de dias é " + totalDias);
 
-        scanner.close();
     }
 }
