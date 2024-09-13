@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio11 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // Comando para habilitar a leitura de dados
 
         // Variáveis
         int a, b, trocaValores;
